@@ -1,0 +1,63 @@
+/* Компонент: Tag */
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: #e9ecef;
+  color: #495057;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.tag:hover {
+  background-color: #dee2e6;
+}
+
+/* Компонент: ActionButton */
+.action-btn {
+  transition: all 0.2s;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Компонент: PostCard */
+.post-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Компонент: Sidebar */
+.sidebar-card {
+  position: sticky;
+  top: 20px;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 768px) {
+  .sidebar-card {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+/* UserMenu аватар */
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Кнопка like с анимацией */
+.like-btn.active {
+  color: #dc3545;
+}
