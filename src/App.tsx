@@ -1,6 +1,6 @@
 function App() {
   return (
-  <h1>Hello, qaz! я новенький!</h1>
+  <h1>Hello, fff! для фоток</h1>
   )
 }
 
